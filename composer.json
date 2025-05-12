@@ -1,5 +1,5 @@
 {
-    "name": "protonemedia/laravel-splade-breeze",
+    "name": "rimbaborneo/laravel-splade-breeze",
     "description": "Minimal Laravel authentication scaffolding with Laravel Splade.",
     "keywords": [
         "laravel",
@@ -9,8 +9,8 @@
     ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/protonemedia/laravel-splade-breeze/issues",
-        "source": "https://github.com/protonemedia/laravel-splade-breeze"
+        "issues": "https://github.com/rimbaborneo/laravel-splade-breeze/issues",
+        "source": "https://github.com/rimbaborneo/laravel-splade-breeze"
     },
     "authors": [
         {
@@ -23,12 +23,13 @@
         }
     ],
     "require": {
-        "php": "^8.2",
-        "illuminate/console": "^12.0",
-        "illuminate/filesystem": "^12.0",
-        "illuminate/support": "^12.0",
-        "illuminate/validation": "^12.0",
-        "protonemedia/laravel-splade": "^1.4.18"
+        "php": "^8.2.0",
+        "illuminate/console": "^11.0|^12.0",
+        "illuminate/filesystem": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/validation": "^11.0|^12.0",
+        "symfony/console": "^7.0",
+        "protonemedia/laravel-splade": "^1.4.21"
     },
     "autoload": {
         "psr-4": {
@@ -51,6 +52,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "laravel/pint": "^1.1"
+        "laravel/pint": "^1.1",
+        "laravel/framework": "^11.0|^12.0",
+        "orchestra/testbench-core": "^9.0|^10.0",
+        "phpstan/phpstan": "^2.0"
     }
 }
