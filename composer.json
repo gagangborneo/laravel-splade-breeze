@@ -1,5 +1,5 @@
 {
-    "name": "rimbaborneo/laravel-splade-breeze",
+    "name": "gagangborneo/laravel-splade-breeze",
     "description": "Minimal Laravel authentication scaffolding with Laravel Splade.",
     "keywords": [
         "laravel",
@@ -9,8 +9,8 @@
     ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/rimbaborneo/laravel-splade-breeze/issues",
-        "source": "https://github.com/rimbaborneo/laravel-splade-breeze"
+        "issues": "https://github.com/gagangborneo/laravel-splade-breeze/issues",
+        "source": "https://github.com/gagangborneo/laravel-splade-breeze"
     },
     "authors": [
         {
